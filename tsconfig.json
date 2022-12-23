@@ -14,7 +14,7 @@
 
     /* Language and Environment */
     "target": "ES6",                                  /* 컴파일될 js의 버전 지정 Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "lib": ["ES6", "DOM"],                                        /* 목표로 하는 런타임환경(js코드가 실행되는 환경)을 나타내는 합쳐진 라이브러리의 정의 파일을 특정해주는  ex) "DOM", Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "lib": ["ES6"],                                        /* 목표로 하는 런타임환경(js코드가 실행되는 환경)을 나타내는 합쳐진 라이브러리의 정의 파일을 특정해주는  ex) "DOM", Specify a set of bundled library declaration files that describe the target runtime environment. */
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
     // "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
     // "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
@@ -41,7 +41,7 @@
     // "noResolve": true,                                /* Disallow 'import's, 'require's or '<reference>'s from expanding the number of files TypeScript should add to a project. */
 
     /* JavaScript Support */
-    "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
     // "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
     // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'. */
 
